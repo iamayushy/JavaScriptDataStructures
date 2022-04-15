@@ -8,7 +8,7 @@ function checkPanagram(Chek, dev, str){
     }
     console.log('Panagram');
 }
-const dev = 'The quick brown fox jumps over the lazy dog'
+const dev = 'The quick brown fo'
 const Chek = new Set()
 for(let i = 0; i < dev.length; i++){
     Chek.add(dev[i])
